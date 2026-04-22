@@ -1,0 +1,165 @@
+# =========================================================
+# Maven Java WebApp (.war) Project using Servlets
+# Thorough .gitignore for clean clone / pull workflow
+# =========================================================
+
+# =========================================================
+# OS GENERATED FILES
+# =========================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================================================
+# IDE / EDITOR FILES
+# =========================================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+Servers/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# STS / Spring Tool Suite
+.springBeans
+
+# =========================================================
+# MAVEN BUILD OUTPUT
+# =========================================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Maven Wrapper (keep wrapper files if used)
+# DO NOT IGNORE THESE if project uses wrapper:
+# mvnw
+# mvnw.cmd
+# .mvn/
+
+# =========================================================
+# JAVA COMPILED FILES
+# =========================================================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# =========================================================
+# LOG FILES
+# =========================================================
+*.log
+logs/
+hs_err_pid*
+replay_pid*
+
+# =========================================================
+# TEMPORARY FILES
+# =========================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+*.bak
+
+# =========================================================
+# TEST / COVERAGE OUTPUT
+# =========================================================
+coverage/
+jacoco.exec
+/site/
+surefire-reports/
+failsafe-reports/
+
+# =========================================================
+# TOMCAT / SERVER GENERATED FILES
+# =========================================================
+
+# If using embedded or local Tomcat folder inside project
+tomcat/
+apache-tomcat*/
+work/
+temp/
+catalina.out
+
+# =========================================================
+# DEPLOYMENT GENERATED FILES
+# =========================================================
+*.pid
+*.seed
+
+# =========================================================
+# ENV / SECRET FILES
+# =========================================================
+.env
+.env.*
+application-local.properties
+application-dev.properties
+secrets.properties
+*.keystore
+*.jks
+*.p12
+
+# =========================================================
+# DATABASE FILES (if local test DB used)
+# =========================================================
+*.db
+*.sqlite
+*.mv.db
+*.h2.db
+
+# =========================================================
+# NODE (if frontend assets inside webapp)
+# =========================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================================================
+# GENERATED WEB FILES
+# =========================================================
+dist/
+build/
+
+# =========================================================
+# KEEP IMPORTANT SOURCE FILES (DO NOT IGNORE)
+# =========================================================
+# src/main/java/
+# src/main/resources/
+# src/main/webapp/
+# src/test/java/
+# pom.xml
+# web.xml
+# JSP files
+# Servlet files
+# Java source files
+# Maven wrapper (if used)
